@@ -17,8 +17,8 @@
 		if( count > AICP.clickLimit ) {
 			$(".adsbygoogle").css({ display: "none" });
 		} else {
-			$(".adsbygoogle iframe").iframeTracker({
-				blurCallback: function(){
+			//$(".adsbygoogle iframe").iframeTracker({
+				//blurCallback: function(){
 					// Do something when the iframe is clicked
 					//console.log( "Iframe Ad Clicked" );
 					//console.log( "count: " + count );
@@ -40,7 +40,7 @@
 						$(".adsbygoogle").css({ display: "none" });
 					}
 				//}
-			});
+			//});
 		}
 	}
 })(jQuery);
